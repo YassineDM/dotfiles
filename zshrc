@@ -70,3 +70,6 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# Point to where postgres is to use the psql command.
+export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
